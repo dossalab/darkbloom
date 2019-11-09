@@ -5,7 +5,7 @@ GDB = arm-none-eabi-gdb
 SIZE = arm-none-eabi-size
 
 # Project settings
-exec := bloom.elf
+exec := darkbloom.elf
 arch := -mcpu=cortex-m0 -mthumb
 spec := -nostartfiles --specs=nosys.specs --specs=nano.specs
 opt  := -Os
